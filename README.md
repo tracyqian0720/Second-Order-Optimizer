@@ -26,7 +26,7 @@ https://openreview.net/pdf?id=HJYoqzbC- (Accessed: 07 April
 ## Methods Implemented:
 
 First order methods implemented:
- - Stochastic Gradient Descent - BaselineFirsrOrders.ipynb
+ - Stochastic Gradient Descent - BaselineFirstOrders.ipynb
  - ADAM - Kingma, D. and Ba, J. (2015) Adam: A method for stochastic op- timization. Available at: https://arxiv.org/pdf/1412.6980.pdf (Ac- cessed: 08 April 2024).
 
 Second Order methods implemented:
@@ -38,7 +38,7 @@ optimization, cs.toronto.edu. Available at:
 https://www.cs.toronto.edu/ rgrosse/courses/csc2541 2021/readings/L04 seco
 (Accessed: 09 April 2024). - File Conjugate-Gradient.ipynb
 
-- AdaHessian - ao, Z. et al. (2021) Adahessian: An adaptive second or- der optimizer for machine learning, arXiv.org. Available at: https://arxiv.org/abs/2006.00719 (Accessed: 08 April 2024). File - AdaHessian.ipynb
+- AdaHessian - ao, Z. et al. (2021) Adahessian: An adaptive second order optimizer for machine learning, arXiv.org. Available at: https://arxiv.org/abs/2006.00719 (Accessed: 08 April 2024). File - AdaHessian.ipynb
 
 
 ## Datasets
