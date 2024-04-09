@@ -1,6 +1,11 @@
 # Second Order Optimizer Comparison Experiments
 By: Tracy Qian, Haris Rasul, Kailyn Yoon, Grant Lau
 
+
+## About:
+This is a comparative analysis of first-order and second-order methods in the context of training Convolutional-Neural-Networks for image classification. Our study benchmarks the popular stochastic gradient descent and ADAM methods against several second order methods based off Newton’s method such as the Broyden-Fletcher-Goldfarb-Shanno method (BFGS). The main objective is to investigate whether the more complex second-order methods lead to better performance metrics, such as accuracy and training speed compared to standardized first-order methods. We examine both performance and feasibility of these methods. We provide seperate implmentations in each jupyter notebook 
+
+
 ## Reference Papers:
 1. Second Order Methods Implementations - T.-D. Guo, Y. Liu, and C.-Y. Han, “An overview of stochas- tic Quasi-Newton methods for large-scale machine learning - Journal of the Operations Research Society of China,” Springer, https://link.springer.com/article/10.1007/s40305-023-00453-9 (ac- cessed Mar. 18, 2024).
 
