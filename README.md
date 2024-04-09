@@ -53,7 +53,7 @@ https://www.kaggle.com/datasets/samuelcortinhas/muffin-vs-chihuahua-image-classi
 1. MIE424-Dataloader - load in the kaggle dataset and make dircetory with ones own drive ; this will produce the normalized image dataset required for training each model under each optimizer
 2. (Excel File) Model-Data-424.xlsx - contains model data for each configuration ; you will need to run each type of model optimizer in the correct file dircetory to collect training loss, validation loss, test accuracy
 3. In each file optimizer file:
-(AdaHessian.ipynb, stochastic_lbfgs.ipynb, ...) upon training each model the training/validation loss and accuracy will be reported for each epoch as well total time duration trained. A model will be generated in each epoch in a self generated directory that stores model weights. You can use those model weight .npz files  to test against a train test split.
+(AdaHessian.ipynb, stochastic_lbfgs.ipynb, ...) upon training each model the training/validation loss and accuracy will be reported for each epoch as well total time duration trained. A model will be generated in each epoch in a self generated directory that stores model weights. You can use those model weight .npz files  to test against a train test split. The attempt to train BFGS can be found in the AdaHessian.ipynb file.
 
 
 ## How to Run:
