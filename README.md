@@ -53,12 +53,18 @@ https://www.kaggle.com/datasets/samuelcortinhas/muffin-vs-chihuahua-image-classi
 1. MIE424-Dataloader - load in the kaggle dataset and make dircetory with ones own drive ; this will produce the normalized image dataset required for training each model under each optimizer
 2. (Excel File) Model-Data-424.xlsx - contains model data for each configuration ; you will need to run each type of model optimizer in the correct file dircetory to collect training loss, validation loss, test accuracy
 3. In each file optimizer file:
-(AdaHessian.ipynb, stochastic_lbfgs.ipynb, ...) upon training each model the training/validation loss and accuracy will be reported for each epoch. A model will be generated in each epoch in a self generated directory that stores model weights. You can use that model weight to test against a train test split.
+(AdaHessian.ipynb, stochastic_lbfgs.ipynb, ...) upon training each model the training/validation loss and accuracy will be reported for each epoch as well total time duration trained. A model will be generated in each epoch in a self generated directory that stores model weights. You can use those model weight .npz files  to test against a train test split.
 
 
+## How to Run:
+
+- Download dataset form Kaggle
+- Run dataloader to create dircetory on local device
+- CNN module is initailized in each test file (AdaHessian.ipynb, Conjugate-Gradient.ipynb, etc..) 
+- Table data in report gotten from report comes recording total time to train a model as well best model test accuracy
+- call npz file weighst with cnn moudle within each test file on a train test split of your choice 
 
 ## Results
-
 Table 1. Test accuracy performance on Chihuahua vs Muffin dataset:
 
 <img width="319" alt="Screenshot 2024-04-09 at 2 00 53 PM" src="https://github.com/tracyqian0720/Second-Order-Optimizer/assets/66268214/f0e87b1f-ec1d-405b-b30d-52dac39b759f">
