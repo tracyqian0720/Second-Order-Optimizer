@@ -1,4 +1,4 @@
-# Second Order Optimizer Comparison Experiments
+# MIE424 Final Project: Second Order Optimizer Comparison Experiments
 By: Tracy Qian, Haris Rasul, Kailyn Yoon, Grant Lau
 
 
