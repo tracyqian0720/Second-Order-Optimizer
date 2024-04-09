@@ -57,4 +57,10 @@ https://www.kaggle.com/datasets/samuelcortinhas/muffin-vs-chihuahua-image-classi
 
 
 
+## Results
+
+Table 1. Test accuracy performance on Chihuahua vs Muffin dataset:
+
+<img width="319" alt="Screenshot 2024-04-09 at 2 00 53 PM" src="https://github.com/tracyqian0720/Second-Order-Optimizer/assets/66268214/f0e87b1f-ec1d-405b-b30d-52dac39b759f">
+
 
