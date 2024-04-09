@@ -33,7 +33,8 @@ optimization, cs.toronto.edu. Available at:
 https://www.cs.toronto.edu/ rgrosse/courses/csc2541 2021/readings/L04 seco
 (Accessed: 09 April 2024). - File Conjugate-Gradient.ipynb
 
-- AdaHessian 
+- AdaHessian - ao, Z. et al. (2021) Adahessian: An adaptive second or- der optimizer for machine learning, arXiv.org. Available at: https://arxiv.org/abs/2006.00719 (Accessed: 08 April 2024). File - AdaHessian.ipynb
+
 
 ## Datasets
 
