@@ -18,7 +18,7 @@ https://openreview.net/pdf?id=HJYoqzbC- (Accessed: 07 April
 
 ## Dependancies: 
 1. pyTorch
-2. V100 GPU - Google Collab subscription
+2. V100 GPU - Google Colab subscription
 3. Matplotlib
 4. numpy
 5. scikit-learn
